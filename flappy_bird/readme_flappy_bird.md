@@ -1,3 +1,3 @@
 ## Flappy bird clone
 
-(./image/Immagine_gioco.jpg)
+(./img/Immagine_gioco.jpg)
