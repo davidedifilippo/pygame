@@ -31,5 +31,3 @@ class Bird(pygame.sprite.Sprite):
         self.image = pygame.transform.rotate(self.images[self.index], -self.velocity * 2)
 
 
-
-
