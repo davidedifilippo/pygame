@@ -1,3 +1,3 @@
 ## Flappy bird clone
 
-(./img/Immagine_gioco.jpg)
+![This is an image](./img/Immagine_gioco.jpg)
