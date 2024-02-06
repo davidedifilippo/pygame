@@ -1,7 +1,7 @@
 import pygame
 
 game_window = pygame.display.set_mode((1200, 600))
-pygame.display.set_caption("ddf_Game")
+pygame.display.set_caption("Move circle")
 
 # center
 
@@ -22,7 +22,7 @@ while running:
     game_window.fill((0, 0, 0))
 
     KeyPressed = pygame.key.get_pressed()
-    
+    # muovo di un pixel
     if KeyPressed[pygame.K_UP]:
         y -= 1
     if KeyPressed[pygame.K_DOWN]:
@@ -32,5 +32,5 @@ while running:
     if KeyPressed[pygame.K_RIGHT]:
         x += 1
 
-    pygame.draw.circle(game_window, (255, 255, 0), (x, y), r)
+    pygame.draw.circle(game_window, (255, 90, 0), (x, y), r)
     pygame.display.update()
